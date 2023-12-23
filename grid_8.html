@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Grid_8</title>
+    <style>
+        #abc{
+            /* border: 1px solid green; */
+            display: grid;
+            grid-template-columns: 110px  90px 90px 90px 50px 150px;
+            grid-template-rows:50px 30px 30px 20px 80px 80px 80px 80px;
+            grid-gap: 5px;
+            
+        }
+        /* #abc div{
+          border: 1.5px solid blue;
+            
+        } */
+        #xyz{
+            grid-area: 1/1/4/3;
+            background-color: purple;
+            
+        }
+        #efg{
+            grid-area: 1/3/6/4;
+            background-color: green;
+            
+        }
+        #hij{
+            grid-area: 1/4/2/5;
+            background-color: blue;
+            
+        }
+        #cde{
+          grid-area:1/5/2/7; 
+          background-color: green; 
+        }
+        #lmn{
+          grid-area:2/5/3/6; 
+          background-color: blue; 
+        }
+        #rst{
+          grid-area:2/6/3/7; 
+          background-color: red; 
+        }
+        #uvw{
+          grid-area:4/1/6/2; 
+          background-color: green; 
+        }
+        #opq{
+            grid-area: 4/2/5/3;
+            background-color: blue;
+            
+        }
+        #ijk{
+            grid-area: 5/2/6/3;
+            background-color: red;
+            
+        }
+        #ijk1{
+            grid-area: 6/1/8/3;
+            background-color: green;
+            
+        }
+        #ijk2{
+            grid-area: 2/4/6/5;
+            background-color: red;
+            
+        }
+        #ijk3{
+            grid-area: 3/5/7/7;
+            background-color: purple;
+            
+        }
+        #ijk4{
+            grid-area: 6/3/8/5;
+            background-color: purple;
+            
+        }
+        #ijk5{
+            grid-area: 7/5/8/7;
+            background-color: blue;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="abc">
+    <div id="xyz"></div>
+    <div id="efg"></div>
+    <div id="hij"></div>
+    <div id="cde"></div>
+    <div id="lmn"></div>
+    <div id="rst"></div>
+    <div id="uvw"></div>
+    <div id="opq"></div>
+    <div id="ijk"></div>
+    <div id="ijk1"></div>
+    <div id="ijk2"></div>
+    <div id="ijk3"></div>
+    <div id="ijk4"></div>
+    <div id="ijk5"></div>
+    </div>
+</body>
+</html>

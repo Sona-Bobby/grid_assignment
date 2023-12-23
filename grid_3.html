@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Grid_3</title>
+    <style>
+        #abc{
+           
+            display: grid;
+            grid-template-columns: 200px 200px 200px 200px;
+            grid-template-rows:100px 100px 100px 100px;
+            grid-gap: 20px;
+            
+            
+        }
+        #xyz{
+            grid-area: 1/1/1/5;
+            text-align: center;
+            
+        }
+        #rst{
+            grid-area: 2/1/3/4;
+            
+        }
+        #uvw{
+            grid-area: 2/4/4/5 ;
+        }
+        #lmn{
+            grid-area: 3/1/4/2;
+            
+
+        }
+        #efg{
+            grid-area: 3/2/4/3;
+        }
+        #hij{
+            grid-area: 3/3/4/4;
+        }
+        #abc div{
+          border: 2px solid blueviolet;  
+        }
+        #cde{
+          grid-area:4/1/5/5;
+          text-align: center;  
+        }
+    </style>
+</head>
+<body>
+    <div id="abc">
+    <div id="xyz">Heading</div>
+    <div id="rst">paragraph</div>
+    <div id="uvw">sidebar</div>
+    <div id="lmn">imag1</div>
+    <div id="efg">imag2</div>
+    <div id="hij">imag3</div>
+    <div id="cde">footer</div>
+    
+    </div>
+</body>
+</html>

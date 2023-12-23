@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Grid_1</title>
+    <style>
+        #abc{
+            border: 1px solid green;
+            display: grid;
+            grid-template-columns: 400px 400px 400px;
+            grid-template-rows:100px 100px 100px;
+            
+        }
+        #abc div{
+          border: 1.5px solid blue;  
+        }
+        #cde{
+          grid-area: 2/1/4/3;  
+        }
+    </style>
+</head>
+<body>
+    <div id="abc">
+    <div>234</div>
+    <div>456</div>
+    <div>567</div>
+    <div id="cde">123</div>
+    <div>456</div>
+    <div>34567</div>
+    </div>
+</body>
+</html>

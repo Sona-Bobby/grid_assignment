@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Grid_7</title>
+    <style>
+        #abc{
+            /* border: 1px solid green; */
+            display: grid;
+            grid-template-columns: 200px  80px 70px 70px 200px;
+            grid-template-rows:100px 100px 100px 100px 100px;
+            grid-gap: 5px;
+            
+        }
+        /* #abc div{
+          border: 1.5px solid blue;
+            
+        } */
+        #xyz{
+            grid-area: 1/1/4/2;
+            background-color: orange;
+            
+        }
+        #efg{
+            grid-area: 1/2/2/4;
+            background-color: palevioletred;
+            
+        }
+        #hij{
+            grid-area: 1/4/2/6;
+            background-color:purple;
+            
+        }
+        #cde{
+          grid-area:2/2/5/5; 
+          background-color: purple; 
+        }
+        #lmn{
+          grid-area:2/5/3/6; 
+          background-color: palevioletred; 
+        }
+        #rst{
+          grid-area:4/1/5/2; 
+          background-color: palevioletred; 
+        }
+        #uvw{
+          grid-area:5/1/6/3; 
+          background-color: purple; 
+        }
+        #opq{
+            grid-area: 5/3/6/5;
+            background-color: palevioletred;
+            
+        }
+        #ijk{
+            grid-area: 3/5/6/6;
+            background-color: orange;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="abc">
+    <div id="xyz"></div>
+    <div id="efg"></div>
+    <div id="hij"></div>
+    <div id="cde"></div>
+    <div id="lmn"></div>
+    <div id="rst"></div>
+    <div id="uvw"></div>
+    <div id="opq"></div>
+    <div id="ijk"></div>
+    </div>
+</body>
+</html>

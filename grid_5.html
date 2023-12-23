@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Grid_5</title>
+    <style>
+        #abc {
+            
+            display: grid;
+            grid-template-columns:350px 310px 240px 200px;
+            grid-template-rows: 50px 300px 180px 50px;
+            grid-gap: 20px;
+            background-color: yellow;
+
+        }
+
+        #abc div {
+            border: 1.5px solid blue;
+        }
+        #efg{
+            grid-area: 1/1/2/5;
+            text-align: center;
+        }
+        #hij{
+            grid-area: 2/1/3/4;
+        }
+        #lmn{
+            grid-area: 2/4/4/5;
+        }
+        #xyz{
+            grid-area: 4/1/5/5;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="abc">
+        <div id="efg">Heading</div>
+        <div id="hij">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore explicabo totam saepe, quo eaque itaque
+            excepturi voluptatibus tenetur. Optio, tenetur eveniet? Provident eum, id beatae commodi, nam molestiae enim
+            fugiat veniam eos dignissimos rerum? Fugiat natus autem minus quo dolorem totam nihil magni quas corporis?
+            Tempore, vitae. Dolorem, hic accusantium?</div>
+        <div id="lmn">sidebar</div>
+        <div><img src="https://th.bing.com/th/id/OIP._ajHHTmB2OCkdyQi51_qvgHaEn?pid=ImgDet&rs=1" width="350px"
+            height="180px"></div>
+        <div><img src="https://th.bing.com/th/id/OIP._ajHHTmB2OCkdyQi51_qvgHaEn?pid=ImgDet&rs=1" width="310px"
+            height="180px"></div>
+        <div><img src="https://th.bing.com/th/id/OIP._ajHHTmB2OCkdyQi51_qvgHaEn?pid=ImgDet&rs=1" width="240px"
+            height="180px"></div>
+        <div id="xyz">Footer</div>
+    </div>
+</body>
+
+</html>

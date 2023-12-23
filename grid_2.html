@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Grid_2</title>
+    <style>
+        #abc{
+           
+            display: grid;
+            grid-template-columns: 400px 400px 400px;
+            grid-template-rows:100px 100px 100px;
+            
+            
+            
+        }
+        #xyz{
+            grid-area: 1/1/4/4;
+            text-align: center;
+            
+        }
+        #rst{
+            grid-area: 2/1/4/2;
+            
+        }
+        #uvw{
+            grid-area: 2/2/3/3;
+        }
+        #lmn{
+            grid-area: 2/3/3/4 ;
+        }
+        #abc div{
+          border: 2px solid black;  
+        }
+        #cde{
+          grid-area:3/2/4/4;
+          text-align: center;  
+        }
+    </style>
+</head>
+<body>
+    <div id="abc">
+    <div id="xyz">Heading</div>
+    <div id="rst">menu</div>
+    <div id="uvw">section1</div>
+    <div id="lmn">section2</div>
+    <div id="cde">footer</div>
+    
+    </div>
+</body>
+</html>
